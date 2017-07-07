@@ -14,9 +14,11 @@ if you want know more, you should read [kazuhikoarase‘s](https://github.com/ka
 
 
 ```
+import { extQr } from './qrcode'
+
 var typeNumber = 4;
 var errorCorrectionLevel = 'L';
-var qr = qrcode(typeNumber, errorCorrectionLevel);
+var qr = extQr(typeNumber, errorCorrectionLevel);
 qr.addData('Hi!');
 qr.make();
 qr.createImgTag(); // this is a base64 data
