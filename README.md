@@ -1,5 +1,5 @@
 # qrcode
-pure es6 qrcode generator
+pure javascript qrcode generator
 
 
 
