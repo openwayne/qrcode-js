@@ -1,5 +1,5 @@
 # qrcode
-pure javascript qrcode generator
+javascript qrcode generator. support for alipay and wechat miniapp.
 
 
 
